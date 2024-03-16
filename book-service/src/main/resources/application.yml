@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/book-service
+    username: postgres
+    password: 5253228432
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    mail:
+      username: javid.a@div.edu.az
+      password: wjla vnls pvdn ckhi
+      host: smtp.gmail.com
+      port: 587
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+              enable: true
+
+  #    properties:
+  #      hibernate:
+  #        format_sql: true
+  #        default-schema: kil
+
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+connection:
+  liquibase:
+    enabled: true
+#    spring:
+#      main:
+#        allow-circular-references=true:
+server:
+  port: 8082
+
+

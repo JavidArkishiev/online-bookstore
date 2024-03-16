@@ -1,0 +1,12 @@
+#version: '3'
+#services:
+#  airport-db:
+#    image: library/postgres:latest
+#    ports:
+#      - "30487:5432"
+#    container_name: BookStore
+#    environment:
+#      - POSTGRES_DB=onlinestore
+#      - POSTGRES_PASSWORD=javid12345
+#      - POSTGRES_USER=javid12345
+#
